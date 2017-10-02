@@ -1,0 +1,36 @@
+ body{
+	        background: url("construction.jpg");
+			background-size: 1500px 650px;
+			background-repeat:no-repeat;
+	 }
+.navigation{
+            background-color:#222;
+			position:absolute;
+			top:0;
+			left:0;
+			right:0;
+			min-height:100px;
+}	
+.navigation ul{
+                list-style-type: none;
+                margin:0;
+               	overflow:auto;
+				background-color:#222;
+					
+              }	
+.navigation li{
+			    display:inline-block;
+                float:right;
+                				
+			  }	
+.navigation li a{
+                  display:block;
+				  color:white;
+				  padding:14px 16px;
+				  text-decoration:none;
+				  text-align:center;
+                }
+.navigation li a:hover{
+					    background-color:#111; 
+                      }	
+			  
